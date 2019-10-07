@@ -1,0 +1,7 @@
+2019-10-07 14:50:01 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "INSERT INTO GRAPHIC VALUES (1, ""cytat1"", ""url1"")
+INSERT[*] INTO GRAPHIC VALUES (2, ""cytat2"", ""url2"") "
+Syntax error in SQL statement "INSERT INTO GRAPHIC VALUES (1, ""cytat1"", ""url1"")
+INSERT[*] INTO GRAPHIC VALUES (2, ""cytat2"", ""url2"") "; SQL statement:
+INSERT INTO Graphic VALUES (1, "cytat1", "url1")
+INSERT INTO Graphic VALUES (2, "cytat2", "url2") [42000-199]
